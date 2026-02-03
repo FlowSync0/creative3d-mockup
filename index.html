@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créative 3D | Impression 3D Polymères Techniques & Composites</title>
+    <meta name="description" content="Service d'impression 3D professionnel en France. Spécialistes des polymères techniques et composites haute performance. Prototypage rapide et fabrication sur mesure.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Grain overlay -->
+    <div class="grain-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="assets/logo_creative3d.jpg" alt="Créative 3D">
+                <span>CRÉATIVE 3D</span>
+            </a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#materiaux">Matériaux</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#apropos">À propos</a>
+            </div>
+            <a href="#contact" class="nav-cta">Demander un devis</a>
+            <button class="nav-mobile-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Atelier de fabrication en France</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Impression 3D</span>
+                <span class="title-line accent">Polymères Techniques</span>
+                <span class="title-line">&amp; Composites</span>
+            </h1>
+            <p class="hero-subtitle">
+                Prototypage rapide, fabrication sur mesure et petites séries. 
+                Plus de 200 matériaux haute performance disponibles.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Obtenir un devis</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#services" class="btn btn-secondary">Découvrir nos services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">200+</span>
+                    <span class="stat-label">Matériaux</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-value">17+</span>
+                    <span class="stat-label">Ans d'expérience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-value">5.0</span>
+                    <span class="stat-label">★ Google (21 avis)</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-image-wrapper">
+                <img src="assets/hero_impression3d.jpg" alt="Impression 3D haute performance" class="hero-image">
+                <div class="hero-image-overlay"></div>
+            </div>
+            <div class="hero-floating-card">
+                <div class="floating-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <div class="floating-text">
+                    <span class="floating-label">Technologie</span>
+                    <span class="floating-value">FDM & SLA</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust Banner -->
+    <section class="trust-banner">
+        <div class="trust-container">
+            <span class="trust-label">Ils nous font confiance</span>
+            <div class="trust-logos">
+                <div class="trust-logo">
+                    <img src="assets/logo_french_fab.jpg" alt="La French Fab">
+                </div>
+                <div class="trust-logo-text">CEA DAM</div>
+                <div class="trust-logo-text">Industrie</div>
+                <div class="trust-logo-text">Défense</div>
+                <div class="trust-logo-text">Automobile</div>
+                <div class="trust-logo-text">R&D</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Nos services</span>
+                <h2 class="section-title">Solutions complètes<br>de fabrication additive</h2>
+            </div>
+            <div class="services-grid">
+                <article class="service-card service-card-large">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Impression 3D FDM</h3>
+                    <p class="service-desc">Fabrication par dépôt de fil fondu. Idéal pour les pièces fonctionnelles, prototypes et petites séries. Grand volume d'impression disponible.</p>
+                    <ul class="service-features">
+                        <li>Volume max: 800×1200×200mm</li>
+                        <li>Chambres chauffées industrielles</li>
+                        <li>Polymères haute température</li>
+                    </ul>
+                    <a href="#" class="service-link">En savoir plus →</a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Impression 3D SLA</h3>
+                    <p class="service-desc">Stéréolithographie pour une précision extrême. Finitions haute définition.</p>
+                    <a href="#" class="service-link">En savoir plus →</a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Modélisation 3D</h3>
+                    <p class="service-desc">Conception CAO sur mesure. Création de fichiers STL à partir de plans ou cahier des charges.</p>
+                    <a href="#" class="service-link">En savoir plus →</a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                            <circle cx="12" cy="13" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Scan 3D</h3>
+                    <p class="service-desc">Numérisation haute précision pour reproduction de pièces existantes.</p>
+                    <a href="#" class="service-link">En savoir plus →</a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Post-traitement</h3>
+                    <p class="service-desc">Finitions, peinture, assemblage, inserts filetés et usinage CNC.</p>
+                    <a href="#" class="service-link">En savoir plus →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Section -->
+    <section id="materiaux" class="materials">
+        <div class="section-container">
+            <div class="section-header section-header-center">
+                <span class="section-tag">Matériaux</span>
+                <h2 class="section-title">Polymères techniques<br>& composites haute performance</h2>
+                <p class="section-subtitle">Plus de 200 matériaux disponibles pour répondre à toutes vos exigences mécaniques, thermiques et chimiques.</p>
+            </div>
+            <div class="materials-categories">
+                <div class="material-category">
+                    <div class="material-header">
+                        <h3>Composites Carbone</h3>
+                        <span class="material-badge">Haute résistance</span>
+                    </div>
+                    <ul class="material-list">
+                        <li><span class="material-name">PA6-CF20</span><span class="material-prop">Nylon + 20% Carbone</span></li>
+                        <li><span class="material-name">PC-CF20</span><span class="material-prop">Polycarbonate + Carbone</span></li>
+                        <li><span class="material-name">PPA-CF25</span><span class="material-prop">Haute température</span></li>
+                        <li><span class="material-name">PPS-CF10</span><span class="material-prop">Résistance chimique</span></li>
+                    </ul>
+                </div>
+                <div class="material-category">
+                    <div class="material-header">
+                        <h3>Polymères Techniques</h3>
+                        <span class="material-badge">Industriel</span>
+                    </div>
+                    <ul class="material-list">
+                        <li><span class="material-name">Nylon PA6</span><span class="material-prop">Résistance mécanique</span></li>
+                        <li><span class="material-name">Nylon PA12</span><span class="material-prop">Flexibilité</span></li>
+                        <li><span class="material-name">PPA</span><span class="material-prop">Haute température</span></li>
+                        <li><span class="material-name">PPS</span><span class="material-prop">Résistance chimique</span></li>
+                    </ul>
+                </div>
+                <div class="material-category">
+                    <div class="material-header">
+                        <h3>Standards & Flexibles</h3>
+                        <span class="material-badge">Polyvalent</span>
+                    </div>
+                    <ul class="material-list">
+                        <li><span class="material-name">ABS</span><span class="material-prop">Robuste & usinable</span></li>
+                        <li><span class="material-name">ASA</span><span class="material-prop">UV résistant</span></li>
+                        <li><span class="material-name">TPU 70A-95A</span><span class="material-prop">Flexible</span></li>
+                        <li><span class="material-name">PLA</span><span class="material-prop">Écologique</span></li>
+                    </ul>
+                </div>
+                <div class="material-category">
+                    <div class="material-header">
+                        <h3>Spéciaux</h3>
+                        <span class="material-badge">Certifiés</span>
+                    </div>
+                    <ul class="material-list">
+                        <li><span class="material-name">ESD</span><span class="material-prop">Antistatique</span></li>
+                        <li><span class="material-name">UL94 V0</span><span class="material-prop">Ignifugé</span></li>
+                        <li><span class="material-name">Alimentaire</span><span class="material-prop">Contact food</span></li>
+                        <li><span class="material-name">PVDF</span><span class="material-prop">Ultra résistant</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+    <!-- Realizations Section -->
+    <section id="realisations" class="realizations">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Réalisations</span>
+                <h2 class="section-title">Nos dernières<br>fabrications</h2>
+            </div>
+            <div class="realizations-grid">
+                <div class="realization-card">
+                    <div class="realization-image">
+                        <div class="realization-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="realization-info">
+                        <span class="realization-material">PA6-CF20</span>
+                        <h4>Engrenage industriel</h4>
+                        <p>Pièce de remplacement haute résistance</p>
+                    </div>
+                </div>
+                <div class="realization-card">
+                    <div class="realization-image">
+                        <div class="realization-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="realization-info">
+                        <span class="realization-material">ESD</span>
+                        <h4>Boîtier électronique</h4>
+                        <p>Intégration Arduino antistatique</p>
+                    </div>
+                </div>
+                <div class="realization-card">
+                    <div class="realization-image">
+                        <div class="realization-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="realization-info">
+                        <span class="realization-material">ASA</span>
+                        <h4>Pièce automobile</h4>
+                        <p>Adaptateur résistant UV</p>
+                    </div>
+                </div>
+                <div class="realization-card">
+                    <div class="realization-image">
+                        <div class="realization-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="realization-info">
+                        <span class="realization-material">TPU 85A</span>
+                        <h4>Joint flexible</h4>
+                        <p>Raccord étanche sur mesure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="section-container">
+            <div class="video-wrapper">
+                <div class="video-content">
+                    <span class="section-tag">Découvrez notre atelier</span>
+                    <h2 class="section-title">La fabrication additive<br>en action</h2>
+                    <p>Visitez notre atelier et découvrez nos équipements de pointe : imprimantes 3D industrielles, fraiseuses CNC et outils de post-traitement.</p>
+                    <a href="https://youtu.be/WbOKzdcyioM" target="_blank" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="5 3 19 12 5 21 5 3"/>
+                        </svg>
+                        <span>Voir la vidéo</span>
+                    </a>
+                </div>
+                <div class="video-thumbnail">
+                    <div class="video-play">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="5 3 19 12 5 21 5 3"/>
+                        </svg>
+                    </div>
+                    <img src="assets/imprimante_haute_temp.jpg" alt="Atelier Créative 3D">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">À propos</span>
+                    <h2 class="section-title">Un atelier français<br>à votre service</h2>
+                    <p class="about-text">
+                        <strong>Créative 3D</strong> est un atelier de fabrication additive situé en Bourgogne, à 150 km de Paris. 
+                        Depuis 2020, nous accompagnons les professionnels et particuliers dans leurs projets d'impression 3D.
+                    </p>
+                    <p class="about-text">
+                        Avec plus de <strong>17 ans d'expérience</strong> en conception et modélisation 3D, nous maîtrisons 
+                        l'ensemble de la chaîne de fabrication : de la conception CAO à la finition des pièces.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Fabrication française</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Devis sous 24h</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Livraison 3-4 jours</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/logo_creative3d_full.jpg" alt="Logo Créative 3D">
+                    <div class="about-badge">
+                        <img src="assets/logo_french_fab.jpg" alt="La French Fab">
+                        <span>Membre de<br>La French Fab</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Contact</span>
+                    <h2 class="section-title">Démarrons<br>votre projet</h2>
+                    <p>Envoyez-nous vos fichiers 3D ou décrivez votre projet. Nous vous répondons sous 24h avec un devis détaillé.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:contact@atelier-creative3d.fr">contact@atelier-creative3d.fr</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>09 67 11 14 25</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Les Robins, 89170 Saint-Martin-des-Champs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-hours">
+                        <h4>Horaires</h4>
+                        <p>Lun - Ven : 8h - 18h<br>Samedi : 9h - 12h</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nom *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Entreprise</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service souhaité</label>
+                        <select id="service" name="service">
+                            <option value="">Sélectionnez un service</option>
+                            <option value="fdm">Impression 3D FDM</option>
+                            <option value="sla">Impression 3D SLA</option>
+                            <option value="modelisation">Modélisation 3D</option>
+                            <option value="scan">Scan 3D</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Décrivez votre projet *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Décrivez votre projet, les matériaux souhaités, les quantités..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="files">Fichiers 3D (STL, OBJ, STEP...)</label>
+                        <div class="file-upload">
+                            <input type="file" id="files" name="files" multiple accept=".stl,.obj,.step,.stp,.3mf">
+                            <div class="file-upload-content">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="17 8 12 3 7 8"/>
+                                    <line x1="12" y1="3" x2="12" y2="15"/>
+                                </svg>
+                                <span>Glissez vos fichiers ou cliquez pour parcourir</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Envoyer ma demande</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="assets/logo_creative3d.jpg" alt="Créative 3D">
+                    <span>CRÉATIVE 3D</span>
+                </div>
+                <p class="footer-tagline">Service d'impression 3D professionnel<br>Polymères techniques & composites</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/service.impression3d.89/" target="_blank" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCYKn8tMiw6jowzVjb3m36Bw" target="_blank" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#0a0a0a"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/atelier-creative3d/" target="_blank" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/creative3d__" target="_blank" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">Impression 3D FDM</a>
+                    <a href="#">Impression 3D SLA</a>
+                    <a href="#">Modélisation 3D</a>
+                    <a href="#">Scan 3D</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Matériaux</h4>
+                    <a href="#">Composites carbone</a>
+                    <a href="#">Nylon PA6/PA12</a>
+                    <a href="#">Flexibles TPU</a>
+                    <a href="#">Tous les matériaux</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Entreprise</h4>
+                    <a href="#">À propos</a>
+                    <a href="#">Livraison</a>
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Confidentialité</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Créative 3D - Atelier de fabrication - EIRL GILLES BRUFFAERT</p>
+            <p>Bourgogne-Franche-Comté, France</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
